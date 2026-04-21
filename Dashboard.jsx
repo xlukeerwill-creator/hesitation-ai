@@ -644,7 +644,7 @@ export default function Dashboard({ onSwitchView }) {
           <div style={{ padding: '0 20px', marginBottom: 28 }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
               <div style={{ width: 30, height: 30, borderRadius: 8, background: '#1d1d1f', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 13, fontWeight: 700, color: '#fff' }}>H</div>
-              <span style={{ fontSize: 16, fontWeight: 700 }}>HesitationAI</span>
+              <span style={{ fontSize: 16, fontWeight: 700 }}>WhyNot AI</span>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 5, marginTop: 8 }}><span style={{ width: 6, height: 6, borderRadius: '50%', background: '#34c759' }}/><span style={{ fontSize: 11, color: '#34c759', fontWeight: 600 }}>System live</span></div>
           </div>
@@ -673,7 +673,7 @@ export default function Dashboard({ onSwitchView }) {
         <nav style={{ position: 'fixed', top: 0, left: 0, right: 0, zIndex: 100, background: 'rgba(255,255,255,0.72)', backdropFilter: 'saturate(180%) blur(20px)', borderBottom: '1px solid rgba(0,0,0,0.06)', padding: '12px 16px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
             <div style={{ width: 28, height: 28, borderRadius: 6, background: '#1d1d1f', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 12, fontWeight: 700, color: '#fff' }}>H</div>
-            <span style={{ fontSize: 15, fontWeight: 700 }}>HesitationAI</span>
+            <span style={{ fontSize: 15, fontWeight: 700 }}>WhyNot AI</span>
           </div>
           <div style={{ display: 'flex', gap: 10 }}>
             <button onClick={onSwitchView} style={{ background: '#f5f5f7', border: 'none', padding: '7px 12px', borderRadius: 8, fontSize: 12, fontWeight: 600, cursor: 'pointer' }}>Store</button>
